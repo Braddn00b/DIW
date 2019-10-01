@@ -20,7 +20,7 @@ body {
     Cada uno de los "div/cajas" tendrá un ancho de 22% dejando un 12% (3% x 4 elementos) de manera que deberíamos dejar un 4% de espacio entre los diferentes "div/cajas" para que nos queden correctamente distribuidos
     Sin embargo estableciendo la propiedad "margin-right: 3%" estableceriamos 4 margenes con lo que los elementos no quedarían correctamente distribuidos
     Peor aún si establecerieramos el "margin-right: 4%" porque nos sobráría el margen derecho del "div/caja" situado más a la derecha
-*/
+
 .box {
     width: 22%;
     height: 20rem;
@@ -32,7 +32,7 @@ body {
     margin-right: 3%; 
 }
 
-
+*/
 /**
     Versión mejorada 2.0
 .box {
@@ -53,6 +53,8 @@ body {
 */
 /**
     Versión mejorada 3.0
+*/
+
 .box {
     width: 22%;
     height: 20rem;
@@ -67,7 +69,7 @@ body {
 .box:not(:last-child) {
     margin-right: 4%; 
 }
-*/
+
 
 /**
     NOTA IMPORTANTE
