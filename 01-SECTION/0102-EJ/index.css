@@ -1,0 +1,32 @@
+*, *::before, *::after, *:before, *:after{
+
+    box-sizing: border-box;
+}
+
+.box{
+
+    width: 25%;
+    background-color: salmon;
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1rem;
+    float: left;
+}
+
+#pistacho{
+
+    background-color: #82D700;
+}
+
+#turquesa{
+
+    background-color: #00D7BD;
+}
+
+#magenta{
+
+    background-color: #D7009C;
+}
