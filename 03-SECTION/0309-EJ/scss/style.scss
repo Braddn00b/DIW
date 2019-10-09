@@ -1,0 +1,17 @@
+section {
+    background-color: skyblue;
+    padding: 2rem;
+    margin: 2rem;
+    article{
+        background-color: #fff;
+        color:#00bfff;
+        padding: 1em;
+               
+    }
+}
+#columns-inline-block{
+    article{
+        display: inline-block;
+        width: 22%;
+    }
+}
