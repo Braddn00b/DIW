@@ -1,5 +1,5 @@
 section {
-    background-color: skyblue;
+    background-color: deepskyblue;
     padding: 2rem;
     margin: 2rem;
     article{
@@ -10,8 +10,37 @@ section {
     }
 }
 #columns-inline-block{
+    font-size: 0;
     article{
         display: inline-block;
         width: 22%;
+        vertical-align: top;
+        height: 30rem;
+        font-size: 1rem;
+        &:not(:last-child){
+            margin-right: 4%;
+        }
+    }
+}
+
+#columns-float {
+    overflow: hidden;
+    article{
+        float: left;
+        width: 22%;
+        height: 30rem;
+        &:not(:last-child){
+            margin-right: 4%;
+        }
+    }
+}
+
+#columns-table {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 2rem 0;
+    article{
+        display: table-cell;
+        width: 25%;
     }
 }
