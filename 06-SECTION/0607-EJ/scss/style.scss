@@ -37,6 +37,9 @@ body {
 
         &:hover {
             z-index: 3;
+            $rotar:random(360)#{deg};
+            transform: rotate($rotar);
+            transition: transform 1.3s ease;
             .veil {
                 opacity: 1;
             }
