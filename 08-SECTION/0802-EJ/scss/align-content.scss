@@ -1,0 +1,17 @@
+.flex-container{
+    background-color: salmon;
+    color: white;
+    padding: 1em;
+    display: flex;
+    height: 30rem;
+    flex-wrap: wrap;
+    align-content: space-around;
+
+}
+
+.flex-item{
+    font-size: 5em;
+    background-color: deepskyblue;
+    border: 3px solid;
+    
+}
