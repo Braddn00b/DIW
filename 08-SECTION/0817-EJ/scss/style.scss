@@ -1,0 +1,70 @@
+.cajas{
+    max-width: 35rem;
+    margin: 3rem auto;
+
+}
+.caja{
+    background-color: lightgrey;
+    margin-bottom: .3rem;
+    padding: 1em;
+
+    display: flex;
+
+    //justify-content: space-between;
+}
+
+.circle {
+    height: .8em;
+    width: 0.8em;
+    border-radius: 50%;
+
+    /** 
+     * STEP 02
+     */
+    flex-shrink: 0;
+    margin-right: 1rem;
+    &.blue {
+        background-color: #6EC5CC;
+    }
+    &.purple {
+        background-color: #B87898;
+    }
+    &.green {
+        background-color: #ABC111;
+    }
+}
+/*.circle{
+    height: 0.8em;
+    width: 0.8em;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 1rem;
+    
+    
+    #azul{
+        background-color: deepskyblue;
+    }
+    #rosa{
+        background-color: salmon;
+    }
+    #verde{
+        background-color: palegreen;
+    }
+}*/
+.next {
+    font-size: 1.5em;
+    align-self: center;
+}
+.id-tienda{
+    flex-shrink: 0;
+    flex-basis: 20%;
+    // flex: 0 0 20%
+    // margin-right: 1rem;
+
+}
+.direccion{
+    flex-grow: 1;
+    padding: 0 .5em;
+    margin-right: 1rem;
+
+}
