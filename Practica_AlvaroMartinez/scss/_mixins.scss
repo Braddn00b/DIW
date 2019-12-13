@@ -1,0 +1,37 @@
+@mixin imagenes{
+    @for $i from 1 through 4{
+        .foto:nth-child(#{$i}) {                  
+            transform: rotate((random(15)-7.5) + deg);
+            background-image: url('../img/#{$i}.jpg');            
+        }
+    }
+}
+
+ @mixin media{
+    $pequenio: 500px;
+    $mediano: 900px;
+       
+    @media screen and (max-width: $pequenio) {
+       header{ 
+            .titulo{
+                font-size: 3.5em;
+            }
+        }
+        .cuerpo{
+            .menu{
+                font-size: .8em;
+            }
+        }
+    }
+
+    @media screen and (max-width: $mediano) {
+        
+        .titulo{
+            font-size: 5em;
+        }
+        .menu{
+            font-size: 1em;
+        }
+    }
+ }
+
