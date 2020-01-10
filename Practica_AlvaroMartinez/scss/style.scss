@@ -17,7 +17,7 @@ body{
             font-family: $title-font;
             text-transform: uppercase;
             position: absolute;
-            color: rgba(0, 0, 0, 0.774);
+            color: darkness( rgba(0, 0, 0, 0.774));
             text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;         
             font-size: 9em;
             top: 25%;
@@ -151,7 +151,7 @@ body{
         .email{
             position: absolute;
             width: 40%;
-            top: 70%;
+            top: 7%;
             left: 30%;
             translate:trasform(-50,-50);
             font-family: $body-font;
